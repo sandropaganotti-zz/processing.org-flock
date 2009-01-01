@@ -1,0 +1,31 @@
+This a Processing.org (http://processing.org) program that simulate the behavior of a flock
+of objects (e.g. sheep). You can adjust the flock center at runtime 
+by using W,S,D,A keys.
+
+For more information about flocking visit:
+- Wikipedia: http://en.wikipedia.org/wiki/Flocking_(behavior)
+- SandroPaganotti.com (Italian): http://sandropaganotti.com/2009/01/01/uno-stormo-con-processing
+
+This program also works with the amazing Processing.js (http://ejohn.org/blog/processingjs/) library by
+Jhon Resing. 
+
+This application is randomly inspired by a very well made tutorial about flocking 
+and VB6 (http://www.vb6.us/source-code/simulate-flock-objects-vb6-source-code-sample)
+
+=== CONFIGURATION ===
+
+These are the options you can change to tweak this program:
+
+int canvas_width  = 400;
+int canvas_height = 400;
+int min_separation = 15;
+int circle_size = 5;
+int num_sheep = 100;
+int max_noise = 250;
+int mint_follow_x = 0;
+int mint_follow_y = 0;
+int follow_amount = 100;
+float max_speed_variance = 0.001;
+float min_speed = 0.005;
+float max_speed = 0.01;
+
